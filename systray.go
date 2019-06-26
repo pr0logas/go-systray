@@ -8,11 +8,10 @@ at the very beginning of main() to lock at main thread.
 package systray
 
 import (
+	"github.com/getlantern/golog"
 	"runtime"
 	"sync"
 	"sync/atomic"
-
-	"github.com/getlantern/golog"
 )
 
 var (
